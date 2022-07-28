@@ -1,8 +1,14 @@
 <div class="container">
+<div style="top:10px; right:10px; position:absolute;">
+    <img alt="image" src="<?= base_url('assets/img/logo_patra_niaga.png'); ?>" alt="#" width="170">
+</div>
+<div style="top:55px; left:10px; position:absolute;">
+    <img alt="image" src="<?= base_url('assets/img/logo_bumn.png'); ?>" alt="#" width="170">
+</div>
     <div class="row justify-content-center vh-100 align-items-center">
         <div class="col-md-10">
             <h3 class="text-center mt-4">
-                SELAMAT DATANG DI HSSE FT REWULU
+                SELAMAT DATANG DI CSMS DIGITAL FT REWULU
             </h3>
             <h3 class="text-center mt-4">
                 SILAHKAN ISI DATA PROFILE PERUSAHAAN ANDA :

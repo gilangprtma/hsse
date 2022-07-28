@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 30, 2022 at 07:53 AM
+-- Generation Time: Jul 21, 2022 at 03:37 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.5
 
@@ -67,7 +67,8 @@ INSERT INTO `user_access_menu` (`id`, `role_id`, `menu_id`) VALUES
 (1, 1, 1),
 (2, 1, 2),
 (3, 1, 3),
-(4, 1, 4);
+(4, 1, 4),
+(5, 1, 5);
 
 -- --------------------------------------------------------
 
@@ -88,7 +89,8 @@ INSERT INTO `user_menu` (`id`, `menu`) VALUES
 (1, 'Home'),
 (2, 'Pja'),
 (3, 'Hsse Plan'),
-(4, 'wpu');
+(4, 'wpu'),
+(5, 'Evaluasi');
 
 -- --------------------------------------------------------
 
@@ -132,7 +134,8 @@ INSERT INTO `user_sub_menu` (`id`, `menu_id`, `title`, `url`, `icon`, `is_active
 (1, 1, 'Dashboard', 'home', 'home', 1),
 (2, 2, 'Pre Job Assessment', 'home/pja', 'heart', 1),
 (3, 3, 'HSSE Plan', 'home/hsseplan', 'clipboard', 1),
-(4, 4, 'WPU', 'home/practice', 'check-square', 1);
+(4, 4, 'WPU', 'home/practice', 'check-square', 1),
+(5, 5, 'Evaluasi', 'home/evaluasi', 'clipboard', 1);
 
 --
 -- Indexes for dumped tables
@@ -182,13 +185,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `user_access_menu`
 --
 ALTER TABLE `user_access_menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `user_menu`
 --
 ALTER TABLE `user_menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `user_role`
@@ -200,7 +203,7 @@ ALTER TABLE `user_role`
 -- AUTO_INCREMENT for table `user_sub_menu`
 --
 ALTER TABLE `user_sub_menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
