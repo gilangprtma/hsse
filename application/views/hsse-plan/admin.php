@@ -30,7 +30,7 @@
                                             <td>61</td>
                                             <td>2011/04/25</td>
                                             <td>2</td>
-                                            <td><a href="<?= base_url(''); ?>" class="text-warning">Lihat</a> | <a href="<?= base_url(''); ?>" class="text-danger">Hapus</a></td>
+                                            <td><a href="<?= base_url('home/detailhsseplan'); ?>" class="text-warning">Lihat</a></td>
                                         </tr>
                                     </tbody>
                                 </table>
